@@ -1,0 +1,22 @@
+/*
+Agrega en cada selector las reglas necesarias para obtener el resultado esperado
+según las instrucciones y la imágen muestra.
+*/
+
+*{
+
+}
+h1{
+text-align: center;
+background-color: #EDEEEE;
+border-bottom: #4caf50 solid 3px;
+}
+#galeria {
+
+}
+#galeria img {
+ 
+}
+#galeria img:hover{
+
+}

@@ -1,0 +1,36 @@
+nav {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+* {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+nav a{
+    float: left;
+}
+nav a {
+    border-right: 1px solid #336699;
+    background-color: black;    
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+li:last-child a {
+    border-right: 0px;
+}
+a:hover {   
+    background-color: #336699;
+}
+
