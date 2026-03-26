@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración de pasarela de pago con Strip</title>
+</head>
+<body>
+    <h1>"Esta es la pagina principal del proyecto"</h1>
+    <div>
+        <button id="boton">Pagar</button>
+    </div>
+    <script>
+        console.log("Conectado")
+        const boton=document.getElementById("boton");
+        boton.addEventListener("click", ()=>{
+            window.location.href="/pagar";
+        });
+    </script>
+
+</body>
+</html>
